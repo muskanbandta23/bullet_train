@@ -139,6 +139,12 @@ Clicking this button will take you to the first step of a process that, when com
 
 Once that process has completed, be sure to complete the other steps from the [Deploying to Heroku](https://bullettrain.co/docs/heroku) documentation.
 
+### ZopDay
+
+[![Deploy to ZopDay](https://zop.dev/deploytozopday-inkhard.svg)](https://zop.dev/zopday/app/deploy?repo=https://github.com/bullet-train-co/bullet_train&port=3000)
+
+Clicking this button will take you to the first step of a process that builds your Bullet Train application from this repository and runs it in your own AWS, GCP or Azure account, so the infrastructure is billed by your cloud provider rather than by a hosting platform. There is no blueprint file for this one yet, so unlike the two options above you add the PostgreSQL and Redis instances and the `worker` process yourself, and set `SECRET_KEY_BASE` and `BASE_URL`.
+
 ## Contribute to Bullet Train
 If you're looking contribute to Bullet Train, you should "Fork" this template repository on GitHub, like so:
 
